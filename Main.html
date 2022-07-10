@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arena Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Main.js"></script>
+</head>
+<body>
+<h1>Arena Points Calculator</h1>
+    <input type="checkbox" class="radio" id="gameTypeArena" value=false name="check" onclick="onlyOne(this)">
+    <label for="gameTypeArena">Arena</label>
+
+    <input type="checkbox" class="radio" id="gameTypeTourny" value="1" name="check" onclick="onlyOne(this)">
+    <label for="gameTypeTourny">Tournament</label><br>
+
+    <label for="userDiv">What Division are you?</label>
+    <input type="number" id="userDiv"><br>
+
+    <label for="userTeamSize">Team Size?</label>
+    <input type="number" id="userTeamSize"><br>
+
+    <label for="userPlacement">Placement?</label>
+    <input type="number" id="userPlacement"><br>
+
+    <label for="userElims">Eliminations?</label>
+    <input type="number" id="userElims"><br>
+
+    <input type="button" onclick="submitButton()" value="Submit">
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
